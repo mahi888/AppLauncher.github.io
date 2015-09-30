@@ -10,7 +10,7 @@
 
 		function redirectTo(url, fallback)
 		{
-		    setTimeout(function(){ window.location = fallback }, 30);
+		    setTimeout(function(){ window.location = fallback }, 300);
 
 		    $('body').append($('<iframe></iframe>').attr('src', url).css({
 		        width: 0,
